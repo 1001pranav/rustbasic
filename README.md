@@ -14,7 +14,7 @@
 * `HelloWord.rs` Contains Basic macro to print output
 * Here macro means family of features in rust more can be learnt in official docs [macro](https://doc.rust-lang.org/book/ch19-06-macros.html#:~:text=The%20term%20macro%20refers%20to,attributes%20usable%20on%20any%20item)
 
-![helloWorld](/assets/images/helloWorldExecution.png)
+![hello world](https://user-images.githubusercontent.com/73541801/195999485-778f94e6-689f-4179-bbaa-557f033f93e6.png)
 
 # Varibles
 [variables.rs](/variables.rs)   
@@ -25,4 +25,4 @@
 * int (signed, unsigned), char, float, bool
 * type conversion of different data types 
 
-#
+#![variables](https://user-images.githubusercontent.com/73541801/195999852-433b0c6f-2f9e-48ea-9b79-aea3173ea1f2.jpg)
