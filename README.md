@@ -25,4 +25,22 @@
 * int (signed, unsigned), char, float, bool
 * type conversion of different data types 
 
-#![variables](https://user-images.githubusercontent.com/73541801/195999852-433b0c6f-2f9e-48ea-9b79-aea3173ea1f2.jpg)
+## output of Variables.rs
+```
+   PS D:\Code-Rust\rustbasic> rustc .\variables.rs
+   PS D:\Code-Rust\rustbasic> .\variables.exe
+   * printing variables
+   * x = 1 And y = 2
+   * {}=> will print variables
+   * we can print multiple variables with  beginning  => Rust or Rust,  beginning
+   * 1 + 2 = 3
+   * 10 * 3 = 30
+   - int => 10
+   - float => 13.33
+   - char => a
+   -bool => false
+   - int 192 as char À
+   - true in boolean true
+   -  false in boolean false
+   - type conversion from boolean to int 1
+```

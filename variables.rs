@@ -9,21 +9,21 @@ fn main() {
     let x = 1;
     let y = 2;
      
-    println!(" x = {} And y = {} ", x, y);
-    println!("{{}}=> will print variables", );
+    println!("* printing variables \n* x = {} And y = {} ", x, y);
+    println!("* {{}}=> will print variables", );
     
     const LANGUAGE: &str = "Rust";
     const PHASE: &str = " beginning ";
 
     //const variables once assigned cannot be changed
 
-    println!(" we can print multiple variables with {1} => {0} or {LANGUAGE}, {PHASE}", LANGUAGE, PHASE);
+    println!("* we can print multiple variables with {1} => {0} or {LANGUAGE}, {PHASE}", LANGUAGE, PHASE);
 
     let sum;
     let mut mul = 10;
 
     sum = x + y;
-    print!(" {x} + {y} = {sum} " );
+    print!("* {x} + {y} = {sum}" );
 
     /* 
         *** "mut" keyword is used to change the declaration time assigned data ***
@@ -34,7 +34,7 @@ fn main() {
     */
 
     mul *= sum;
-    print!("\n {} * {sum} = {mul}", mul/sum);
+    print!("\n* {} * {sum} = {mul}", mul/sum);
     
     /*  
                 ### DATA Types ###
@@ -52,8 +52,8 @@ fn main() {
     let int : i32 = 10;
     let float : f32 = 13.33;
     let character : char = 'a';
-
-    println!(" int => {int} \n float => {float} \n char => {character} ");
+    let boolean :bool = false;
+    println!("\n- int => {int} \n- float => {float} \n- char => {character}\n-bool => {boolean} ");
 
 
     /*
@@ -66,11 +66,11 @@ fn main() {
 
     let decimal :f32 = 32.69540;
     let integer :i32 = decimal as i32;
-    println!("decimal {decimal} to integer typecasting {integer}");
+    println!("- decimal {decimal} to integer typecasting {integer}");
 
     let char_to_int :char = 'a';
     let int_var_as_char = char_to_int as i32;
-    println!(" character {char_to_int} to integer {int_var_as_char}");
+    println!("- character {char_to_int} to integer {int_var_as_char}");
 
     /*
         for converting int to char int needs to be "u8" 
@@ -78,15 +78,15 @@ fn main() {
 
     let int_to_char :u8 = 192;
     let char_as_int :char = int_to_char as char;
-    println!(" int {int_to_char} as char {char_as_int}");
+    println!("- int {int_to_char} as char {char_as_int}");
 
     let boolean_true_data :bool = true;
     let boolean_false_data :bool = false;
 
     let bool_to_int :u8 = boolean_true_data as u8;
 
-    println!(" true in boolean {boolean_true_data} ");
-    println!(" false in boolean {boolean_false_data} ");
-    println!(" type conversion from boolean to int {bool_to_int}");
+    println!("- true in boolean {boolean_true_data} ");
+    println!("- false in boolean {boolean_false_data} ");
+    println!("- type conversion from boolean to int {bool_to_int}");
 
 }
