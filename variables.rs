@@ -12,10 +12,12 @@ fn main() {
     println!(" x = {} And y = {} ", x, y);
     println!("{{}}=> will print variables", );
     
-    const language: &str = "Rust";
-    const phase: &str = " beginning ";
+    const LANGUAGE: &str = "Rust";
+    const PHASE: &str = " beginning ";
 
-    println!(" we can print multiple variables with {1} => {0} or {language}, {phase}", language, phase);
+    //const variables once assigned cannot be changed
+
+    println!(" we can print multiple variables with {1} => {0} or {LANGUAGE}, {PHASE}", LANGUAGE, PHASE);
 
     let sum;
     let mut mul = 10;
@@ -78,5 +80,13 @@ fn main() {
     let char_as_int :char = int_to_char as char;
     println!(" int {int_to_char} as char {char_as_int}");
 
+    let boolean_true_data :bool = true;
+    let boolean_false_data :bool = false;
+
+    let bool_to_int :u8 = boolean_true_data as u8;
+
+    println!(" true in boolean {boolean_true_data} ");
+    println!(" false in boolean {boolean_false_data} ");
+    println!(" type conversion from boolean to int {bool_to_int}");
 
 }
