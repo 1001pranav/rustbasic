@@ -16,5 +16,5 @@
 
 [macro](https://doc.rust-lang.org/book/ch19-06-macros.html#:~:text=The%20term%20macro%20refers%20to,attributes%20usable%20on%20any%20item)
 
-![HelloWorld.exe](/assets/images/helloWorldExecution.jpg)
+![https://github.com/1001pranav/rustbasic/blob/main/assets/images/helloWorldExecution.jpg](/assets/images/helloWorldExecution.jpg?raw=true)
 
