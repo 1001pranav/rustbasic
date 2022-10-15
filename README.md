@@ -11,12 +11,10 @@
    > Will execute the rust commands 
 
 # [HelloWorld.rs](/HelloWorld.rs)
-    * HelloWord.rs Contains Basic macro to print output
-    * Here macro means family of features in rust more can be learnt in official docs below
+* `HelloWord.rs` Contains Basic macro to print output
+* Here macro means family of features in rust more can be learnt in official docs [macro](https://doc.rust-lang.org/book/ch19-06-macros.html#:~:text=The%20term%20macro%20refers%20to,attributes%20usable%20on%20any%20item)
 
-[macro](https://doc.rust-lang.org/book/ch19-06-macros.html#:~:text=The%20term%20macro%20refers%20to,attributes%20usable%20on%20any%20item)
-
-![](/assets/images/helloWorldExecution.png)
+![helloWorld](/assets/images/helloWorldExecution.png)
 
 # Varibles
 [variables.rs](/variables.rs)   
