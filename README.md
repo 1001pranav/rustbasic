@@ -53,6 +53,7 @@
 - type conversion from boolean to int 1
 ```
 
-# [Operators and Basic Data type](/operators.rs)
+# [Arithmetic Operators](/operators.rs)
 
-*  
+* use of +, -, /, *, %
+* use of int and float
