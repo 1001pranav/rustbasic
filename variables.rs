@@ -15,9 +15,11 @@ fn main() {
     const LANGUAGE: &str = "Rust";
     const PHASE: &str = " beginning ";
 
+    let length: usize = LANGUAGE.len();
     //const variables once assigned cannot be changed
 
     println!("* we can print multiple variables with {1} => {0} or {LANGUAGE}, {PHASE}", LANGUAGE, PHASE);
+    println!("* Length of string {LANGUAGE} is {length}");
 
     let sum;
     let mut mul = 10;
@@ -43,7 +45,7 @@ fn main() {
                 <letter> - 
                     i - For signed numbers
                     u - For unsigned number
-                <bitSize> - 8, 16, 32, 64, 128 bits 
+                <bitSize> - 8, 16, 32, 64, 128, size
             *) float - :f<bitSize>
             *) boolean - :bool (true, false)
             *) character(including special char) - use single quotes for char
@@ -51,10 +53,12 @@ fn main() {
 
     let int : i32 = 10;
     let float : f32 = 13.33;
+    let total : i32 = 15_00_000;
     let character : char = 'a';
     let boolean :bool = false;
     println!("\n- int => {int} \n- float => {float} \n- char => {character}\n-bool => {boolean} ");
 
+    println!("\n int with _ {total}");
 
     /*
             *** Data type conversion ***

@@ -21,26 +21,38 @@
            
 * variables.rs Contains the variables and basics of Data types  
 * let and const are two variables in Rust
-* Use of mut is displayed
-* int (signed, unsigned), char, float, bool
+* Use of mut 
+* Basic Data types are -
+   - *_int_* (signed, unsigned)
+   - *_float_*
+   - *_bool_*
+   - *_char_*
+   - *_string_*
 * type conversion of different data types 
 
 ## output of Variables.rs
 ```
-   PS D:\Code-Rust\rustbasic> rustc .\variables.rs
-   PS D:\Code-Rust\rustbasic> .\variables.exe
-   * printing variables
-   * x = 1 And y = 2
-   * {}=> will print variables
-   * we can print multiple variables with  beginning  => Rust or Rust,  beginning
-   * 1 + 2 = 3
-   * 10 * 3 = 30
-   - int => 10
-   - float => 13.33
-   - char => a
-   -bool => false
-   - int 192 as char À
-   - true in boolean true
-   -  false in boolean false
-   - type conversion from boolean to int 1
+* printing variables 
+* x = 1 And y = 2 
+* {}=> will print variables
+* we can print multiple variables with  beginning  => Rust or Rust,  beginning
+* Length of string Rust is 4
+* 1 + 2 = 3
+* 10 * 3 = 30
+- int => 10
+- float => 13.33
+- char => a
+-bool => false
+
+ int with _ 1500000
+- decimal 32.6954 to integer typecasting 32
+- character a to integer 97
+- int 192 as char À
+- true in boolean true
+- false in boolean false
+- type conversion from boolean to int 1
 ```
+
+# [Operators and Basic Data type](/operators.rs)
+
+*  
