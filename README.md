@@ -31,25 +31,28 @@
 * type conversion of different data types 
 
 ## output of Variables.rs
-```
+```   
 * printing variables 
 * x = 1 And y = 2 
 * {}=> will print variables
-* we can print multiple variables with  beginning  => Rust or Rust,  beginning
-* Length of string Rust is 4
 * 1 + 2 = 3
 * 10 * 3 = 30
+* Before assigning length is 0 And string is ''
+* After assigning length is 18,  And string is 'String is Assigned'
+* we can print multiple variables with ' beginning ' => 'Rust' or 'Rust', ' beginning '
+* Length of string Rust is 4
+
 - int => 10
 - float => 13.33
 - char => a
--bool => false
+- bool => false
 
  int with _ 1500000
 - decimal 32.6954 to integer typecasting 32
 - character a to integer 97
 - int 192 as char À
-- true in boolean true
-- false in boolean false
+- true in boolean 'true'
+- false in boolean 'false'
 - type conversion from boolean to int 1
 ```
 

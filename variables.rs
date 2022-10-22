@@ -12,15 +12,6 @@ fn main() {
     println!("* printing variables \n* x = {} And y = {} ", x, y);
     println!("* {{}}=> will print variables", );
     
-    const LANGUAGE: &str = "Rust";
-    const PHASE: &str = " beginning ";
-
-    let length: usize = LANGUAGE.len();
-    //const variables once assigned cannot be changed
-
-    println!("* we can print multiple variables with {1} => {0} or {LANGUAGE}, {PHASE}", LANGUAGE, PHASE);
-    println!("* Length of string {LANGUAGE} is {length}");
-
     let sum;
     let mut mul = 10;
 
@@ -56,8 +47,26 @@ fn main() {
     let total : i32 = 15_00_000;
     let character : char = 'a';
     let boolean :bool = false;
-    println!("\n- int => {int} \n- float => {float} \n- char => {character}\n-bool => {boolean} ");
 
+    //To Assign a string
+    let mut assigned_string = String::new(); 
+
+    // For predefined string
+    const LANGUAGE: &str = "Rust";
+    const PHASE: &str = " beginning ";
+
+    let length: usize = LANGUAGE.len();
+    //const variables once assigned cannot be changed
+
+    println!("\n* Before assigning length is {} And string is '{assigned_string}'", assigned_string.len());
+    assigned_string = String::from("String is Assigned" );
+    println!("* After assigning length is {},  And string is '{assigned_string}'" ,assigned_string.len());
+
+    println!("* we can print multiple variables with '{1}' => '{0}' or '{LANGUAGE}', '{PHASE}'", LANGUAGE, PHASE);
+    println!("* Length of string {LANGUAGE} is {length}");
+
+
+    println!("\n- int => {int} \n- float => {float} \n- char => {character}\n-bool => {boolean} ");
     println!("\n int with _ {total}");
 
     /*
@@ -89,8 +98,8 @@ fn main() {
 
     let bool_to_int :u8 = boolean_true_data as u8;
 
-    println!("- true in boolean {boolean_true_data} ");
-    println!("- false in boolean {boolean_false_data} ");
+    println!("- true is represented in boolean as '{boolean_true_data}' ");
+    println!("- false is represented in boolean as '{boolean_false_data}' ");
     println!("- type conversion from boolean to int {bool_to_int}");
 
 }
