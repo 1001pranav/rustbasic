@@ -6,17 +6,18 @@ fn main() {
         Here we can't update x and y variables 
     */    
 
-    let x = 1;
-    let y = 2;
+    //For const we to declare data type
+    const X :i32 = 1;
+    const Y :i32 = 2;
      
-    println!("* printing variables \n* x = {} And y = {} ", x, y);
+    println!("* printing variables \n* x = {} And y = {} ", X, Y);
     println!("* {{}}=> will print variables", );
     
     let sum;
     let mut mul = 10;
 
-    sum = x + y;
-    print!("* {x} + {y} = {sum}" );
+    sum = X+ Y;
+    print!("* {X} + {Y} = {sum}" );
 
     /* 
         *** "mut" keyword is used to change the declaration time assigned data ***
@@ -47,23 +48,6 @@ fn main() {
     let total : i32 = 15_00_000;
     let character : char = 'a';
     let boolean :bool = false;
-
-    //To Assign a string
-    let mut assigned_string = String::new(); 
-
-    // For predefined string
-    const LANGUAGE: &str = "Rust";
-    const PHASE: &str = " beginning ";
-
-    let length: usize = LANGUAGE.len();
-    //const variables once assigned cannot be changed
-
-    println!("\n* Before assigning length is {} And string is '{assigned_string}'", assigned_string.len());
-    assigned_string = String::from("String is Assigned" );
-    println!("* After assigning length is {},  And string is '{assigned_string}'" ,assigned_string.len());
-
-    println!("* we can print multiple variables with '{1}' => '{0}' or '{LANGUAGE}', '{PHASE}'", LANGUAGE, PHASE);
-    println!("* Length of string {LANGUAGE} is {length}");
 
 
     println!("\n- int => {int} \n- float => {float} \n- char => {character}\n-bool => {boolean} ");
@@ -103,3 +87,4 @@ fn main() {
     println!("- type conversion from boolean to int {bool_to_int}");
 
 }
+
