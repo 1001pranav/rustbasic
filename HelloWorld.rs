@@ -4,10 +4,10 @@ fn main() {
        /* 
         Steps to Execute Rust - 
            1) rustc <filename>.rs
-                -> This file creates <fileName>.exe and <fileName>.pbd
+                -> This file creates <fileName>.exe and <fileName>.pbd Or it will create binary files
                     *) .exe file is used for executing 
                     *) .pbd contains debugging information produced by compilers that target windows
-            2) ./<fileName>.exe in windows or ./<fileName>
+            2) ./<fileName>.exe or ./<fileName> in windows or ./<fileName>
     */  
     
     println!("Hello World");
