@@ -167,3 +167,8 @@ _Output of Arithmetic operators_
 * 131 % 20 = 11
 * 2771 15720 0 11
 ```
+
+# [Conditions and Loops](/conditionsNdLoops.rs)
+
+* Use of conditional statements like `if, if..else, if..else if..else, match `
+* Use of Loops like `for`
